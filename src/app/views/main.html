@@ -1,0 +1,10 @@
+<div id="content" ng-controller='GameController as game'>
+    <div id="heading" class="row">
+        <h1 class="title">ng-2048</h1>
+        <div class="scores-container">
+            <div class="score-container">{{ game.gameManager.currentScore }}</div>
+            <div class="best-container">{{ game.gameManager.highScore }}</div>
+        </div>
+    </div>
+    <!-- ... -->
+</div>
